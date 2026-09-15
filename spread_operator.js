@@ -55,17 +55,28 @@
 
 
 
-let f = "first";
-let l = "last";
+// let f = "first";
+// let l = "last";
 
-let data = {
-    [f]: "Ronik",
-    [l]: "choudhary",
+// let data = {
+//     [f]: "Ronik",
+//     [l]: "choudhary",
     
-    show() {
-        console.log(this.first);
-        console.log(this.last);
-    }
-};
+//     show() {
+//         console.log(this.first);
+//         console.log(this.last);
+//     }
+// };
 
-data.show();
+// data.show();
+
+
+//ARRAY DECONSTRUCTING;
+
+let Data = ["Ronik",101,20123,fugana]
+let Name = Data[0]
+let Roll = Data[1]
+let Pinc = Data[2]
+let City = Data[3]
+
+let[Name,Roll,Pinc,City]
