@@ -1,9 +1,9 @@
-class hello{
-    constructor(name){
-        this.faculty = "Akshit";
+// class hello{
+//     constructor(name){
+//         this.faculty = "Akshit";
         
-    }
-};
+//     }
+// };
 
 class student{
     constructor(roll,name,year){
@@ -35,5 +35,18 @@ class detail{
 // let s3 = new student(102,"vivek","2nd");
 
 // detail.display();
-let s1 = new detail();
-s1.display();
+// let s1 = new detail();
+// s1.display();
+class hello{
+    constructor(){
+        console.log("Hello constructor")
+    }
+}
+class hi extends hello{
+            constructor(){
+                super();
+                console.log("Hi constructor");
+            }
+};
+let n1=new hi();
+hi.info();
